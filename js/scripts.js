@@ -2,7 +2,13 @@ $(document).ready(function() {
     $('.clickable').click(function() {
         $('.walrus-showing').toggle();
         $('.walrus-hidden').toggle();
+        
     });
+    $('.clicksy').click(function() {
+        $('.civi').slideToggle();
+        $('.civiParent').fadeIn();
+    });
+
 });
 
 
